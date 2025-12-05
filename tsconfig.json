@@ -21,9 +21,11 @@
         "baseUrl": "src/",
         "paths": {
             "@/*": ["./src/*"],
-            "@components/*": ["components/*"],
+            "@shared/*": ["shared/*"],
             "@lib/*": ["lib/*"],
-            "@styles/*": ["styles/*"]
+            "@styles/*": ["styles/*"],
+            "@pages/*": ["pages/*"],
+            "@features/*": ["features/*"]
         }
     },
     "include": [
